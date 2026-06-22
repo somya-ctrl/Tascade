@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/somya-ctrl/task-management#readme",
   "dependencies": {
+    "@prisma/adapter-pg": "^7.8.0",
     "@prisma/client": "^7.8.0",
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
@@ -27,10 +28,16 @@
     "jsonwebtoken": "^9.0.3",
     "morgan": "^1.11.0",
     "nodemon": "^3.1.14",
+    "pg": "^8.22.0",
     "prisma": "^7.8.0",
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^26.0.0",
+    "@types/pg": "^8.20.0",
     "jest": "^30.4.2",
     "supertest": "^7.2.2",
     "ts-node-dev": "^2.0.0",
